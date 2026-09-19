@@ -12,7 +12,7 @@ module full_adder (
 endmodule
 
 
-module RippleCarryAdder8 ( 
+module RippleCarryAdder8 (
     input  [7:0] a,
     input  [7:0] b,
     input        cin,

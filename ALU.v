@@ -31,7 +31,7 @@
 //     0  1  0  0  0 | SUB-1      ((A-B)-1)
 // =============================================================
 
-module alu_8bit (
+module ALU (
     input  wire [7:0] A,
     input  wire [7:0] B,
     input  wire [4:0] S,      // {S4,S3,S2,S1,S0}

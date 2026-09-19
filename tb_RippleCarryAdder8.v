@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module RippleCarryAdder8_tb;
+module tb_RippleCarryAdder8;
 
     reg  [7:0] a;
     reg  [7:0] b;

@@ -1,12 +1,12 @@
 `timescale 1ns/1ps
 
-module alu_8bit_tb;
+module tb_ALU;
     reg  [7:0] A, B;
     reg  [4:0] S;
     wire [7:0] Z;
     wire Cout, Zero;
 
-    alu_8bit dut(.A(A), .B(B), .S(S), .Z(Z), .Cout(Cout), .Zero(Zero));
+    ALU dut(.A(A), .B(B), .S(S), .Z(Z), .Cout(Cout), .Zero(Zero));
 
     task show(input [127:0] name);
         begin
